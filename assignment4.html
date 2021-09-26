@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<!--Created by Kareem Zahra - COMP 125 Student ID 301177518 -->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Registration</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <form class="info">
+        <h1>Member Registration</h1>
+        <h2>Please Complete all the fields below:</h2>
+        <div id="errorDivision"></div>
+        <label>
+            First Name:
+            <input class="form" type="text" id="firstname" placeholder="Enter first name" required />
+        </label>
+        <label>
+            Last Name:
+            <input class="form" type="text" id="lastname" placeholder="Enter last name" required />
+        </label>
+        <label>
+            Address:
+            <input class="form" type="text" id="address" placeholder="Enter your address" required />
+        </label>
+        <label>
+            City:
+            <input class="form" type="text" id="city" placeholder="Enter your city" required />
+        </label>
+        <label>
+            Postal Code:
+            <input class="form" type="text" id="postal" placeholder="A1A 1A1" required />
+        </label>
+        <label>
+            Province:
+            <select name="province" id="province" required>
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="ON">Ontario</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+            </select>
+        </label>
+        <label>
+            Age:
+            <input class="form" type="number" id="age" placeholder="Age has to be at least 18 yrs. old" required />
+        </label>
+        <label>
+            Password:
+            <input class="form" type="text" id="password" placeholder="at least 6 characters & a digit & an upper-case character" required />
+        </label>
+        <label>
+            Confirm Password:
+            <input class="form" type="text" id="password2" placeholder="Please match password" required />
+        </label>
+        <label>
+            Email:
+            <input class="form" type="text" id="email" placeholder="Type your email including @" required />
+        </label>
+        <input type="submit" id="submit" value="Register Now" />
+        <input type="button" id="clear" value="Clear Form" />
+    </form>
+    <footer>
+        <p>Copyright &copy; Kareem Zahra - Student # 301177518</p>
+    </footer>
+    <script src="assignment4.js"></script>
+</body>
+</html>
